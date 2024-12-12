@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Oskar Jasinski</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+          Some of my <span>Skills</span>
+        </div>
+        <div class="links">
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="100"
+          >
+            <a href="index.html">Home</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="200"
+          >
+            <a href="about.html">About</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="300"
+          >
+            <a href="skills.html">Skills</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="400"
+          >
+            <a href="projects.html">Projects</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="500"
+          >
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+      </div>
+      <div class="dropdown">
+        <div class="links">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Skills</a>
+          <a href="#">Projects</a>
+          <a href="#">Contact</a>
+          <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+        </div>
+      </div>
+    </nav>
+    <section>
+      <div class="background-pic"></div>
+
+      <div class="main-container">
+        <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+          <img src="files/main.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h1
+            data-aos="fade-left"
+            data-aos-duration="1500"
+            data-aos-delay="700"
+          >
+            What do I know?
+          </h1>
+          <div
+            class="typewriter"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+            data-aos-delay="900"
+          >
+            I know <span class="typewriter-text"></span><label for="">|</label>
+          </div>
+          <p
+            data-aos="flip-down"
+            data-aos-duration="1500"
+            data-aos-delay="1100"
+          >
+            <br />
+            <br />
+            I’m a passionate and detail-oriented developer with a foundation in
+            web development and programming. I recently completed a
+            comprehensive software bootcamp at Just IT, where I honed my skills
+            and gained hands-on experience in key technologies.
+            <br />
+            <br />
+            Technical Skills:<br />
+            Programming Languages: Proficient in Python, JavaScript, HTML, and
+            CSS.
+            <br />
+            <br />
+            Databases:<br />
+            Basic understanding of SQL for managing and querying data.
+            <br />
+            Web Development: Knowledge of front-end development principles and
+            building responsive, user-friendly web applications.
+            <br />
+            <br />
+            Key Strengths:<br />
+            Problem-Solving: I enjoy tackling challenges and finding efficient
+            solutions.
+            <br />
+            <br />
+            Team Collaboration:<br />
+            My gaming background has strengthened my ability to work effectively
+            in team-oriented environments.
+            <br />
+            <br />
+            Adaptability:<br />
+            With a love for continuous learning, I’m always exploring new tools
+            and technologies to enhance my skill set.
+            <br />
+            <br />
+            The combination of my technical training and my personal drive makes
+            me excited to take on new projects and contribute to innovative
+            solutions.
+            <br />
+            <br />
+          </p>
+          <div class="social-links">
+            <a data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"
+              ><i class="fa-brands fa-html5"></i
+            ></a>
+            <a data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"
+              ><i class="fa-brands fa-python"></i
+            ></a>
+            <a data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"
+              ><i class="fa-brands fa-js"></i
+            ></a>
+            <a data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"
+              ><i class="fa-brands fa-css3-alt"></i
+            ></a>
+          </div>
+          <div
+            class="btn"
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+            data-aos-delay="1800"
+          >
+            <button>
+              <a
+                href="files/OskarJasinski CV JustIT.pdf"
+                target="_blank"
+                download
+                style="text-decoration: none; color: inherit"
+              >
+                Download My CV
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ offset: 0 });
+    </script>
+    <script src="JavaScript/scriptSkills.js"></script>
+  </body>
+</html>
